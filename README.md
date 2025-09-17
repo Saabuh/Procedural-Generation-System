@@ -50,7 +50,7 @@ Referring back to the grid in Observation, if we normalize the values to be betw
 \> 0.2, < 0.5 = grass  
 \> 0.5 = mountains  
 
-we should get an image resembling something like a landmass, like such:
+we should get an image resembling something like a landmass after feeding the algorithm the perlin noise data, like such:
 
 <img width="600" height="350" alt="image" src="https://github.com/user-attachments/assets/5e6b6ce3-7727-4af1-af77-f8fe3e39955e" />
 
