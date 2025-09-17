@@ -1,5 +1,13 @@
-# Procedural-Generation-System
+# Procedural-Generation-System (~10 minute read)
 
+If you would just like to see the resulting image generated, click [here](#Results)
+
+## Table Of Contents
+- [Disclaimer](#Disclaimer)
+- [Objective](#Objective)
+- [Observation](#Observation)
+- [Solution](#Solution)
+- [Results](#Results)
 ## Disclaimer
 
 This is only a showcase of a system being implemented in my commercial game, and the source code will not be provided as it is a system being included in my project that is planned to be released commercially.
@@ -50,9 +58,13 @@ Referring back to the grid in Observation, if we normalize the values to be betw
 \> 0.2, < 0.5 = grass  
 \> 0.5 = mountains  
 
-we should get an image resembling something like a landmass after feeding the algorithm the perlin noise data, like such:
+we should get an image resembling something like a landmass after feeding the algorithm the perlin noise data.
+
+## Results
 
 <img width="600" height="350" alt="image" src="https://github.com/user-attachments/assets/5e6b6ce3-7727-4af1-af77-f8fe3e39955e" />
+
+Here are the results after feeding the algorithm the perlin noise data and replaces the black/white gradients with colours based on the thresholds listed previously.
 
 we can see that instead of black and white gradients produced by the perlin noise algorithm, we instead took its gradient value and assigned it a colour based on the thresholds listed previously. Furthermore, to represent different climates/temperature, another perlin noise layer was added - seperate from the first one - that solely represents biomes based on temperature and climate and assigned colours on a new threshold:
 
