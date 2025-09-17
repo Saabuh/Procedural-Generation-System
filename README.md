@@ -4,6 +4,10 @@
 
 This is only a showcase of the system being implemented, and the source code will not be provided as it is a system being included in my project that is planned to be released commercially.
 
+## Objective
+
+The objective is to develop a top-down procedurally generated pixel image/visualization that resembles natural landmasses. The visualization must also display different climates and temperatures represented by different colours. The below image shows an example of Iceland that the natural landmass should more or less represent:
+
 <img width="550" height="400" alt="image" src="https://github.com/user-attachments/assets/f4f3e88d-33e0-4e04-b942-e66dc5538020" />
 
 
