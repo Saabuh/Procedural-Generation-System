@@ -56,11 +56,11 @@ we should get an image resembling something like a landmass after feeding the al
 
 we can see that instead of black and white gradients produced by the perlin noise algorithm, we instead took its gradient value and assigned it a colour based on the thresholds listed previously. Furthermore, to represent different climates/temperature, another perlin noise layer was added - seperate from the first one - that solely represents biomes based on temperature and climate and assigned colours on a new threshold:
 
-< 0.1 = ocean (the blue cells)
-\> 0.1, < 0.2 = beaches (the brown cells)
-\> 0.2, < 0.3 = desert (the dark brown cells)
-\> 0.3, < 0.5 = grasslands (the dark green cells)
-\> 0.5 = grasslands (the white cells)
+< 0.1 = ocean (the blue cells)  
+\> 0.1, < 0.2 = beaches (the brown cells)  
+\> 0.2, < 0.3 = desert (the dark brown cells)  
+\> 0.3, < 0.5 = grasslands (the dark green cells)  
+\> 0.5 = grasslands (the white cells)  
 
 thresholds were picked by me, however they can be tweaked to get more unique biomes and landforms. 
 
